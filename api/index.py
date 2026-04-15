@@ -54,7 +54,7 @@ def handle_bombing():
 @app.route("/")
 def home():
     return jsonify({
-        "api": "MKSocial OTP Bomber Controller",
+        "api": "NEXXON OTP Bomber Controller",
         "developer": DEVELOPER,
         "endpoints": {
             "start": "/bomb?num=XXXXXXXXXX&action=start",
